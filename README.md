@@ -18,6 +18,8 @@ npm run dev
 
 打开终端实际输出的网址。通常为 `http://localhost:4321/math-teaching-notes/`，端口被占用时会变化。
 
+当前 Astro 版本会把服务启动到后台，关闭终端不一定停止服务。使用 `npm run dev:stop` 停止开发服务；使用 `npm run preview:stop` 停止正式预览服务。
+
 ## 检查正式版本
 
 ```bash
